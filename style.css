@@ -1,0 +1,25 @@
+/* File: style.css */
+
+#wrapper {
+    display: flex;
+    overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+    min-width: 250px;
+    /* Lebar sidebar */
+    max-width: 250px;
+    transition: margin 0.25s ease-out;
+}
+
+#page-content-wrapper {
+    width: 100%;
+}
+
+
+/* (Opsional) Efek toggle jika Anda ingin sidebar bisa disembunyikan */
+
+
+/* #wrapper.toggled #sidebar-wrapper {
+    margin-left: -250px;
+} */
